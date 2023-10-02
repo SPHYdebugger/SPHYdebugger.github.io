@@ -25,7 +25,7 @@ body {
 }
 .logo2{
   width: 10em;
-  margin-bottom: 5px;
+  
 }
 #logo1{
   width: 0.8em;
@@ -40,18 +40,20 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 2em;
+  padding: 1.5em;
+  height: 80px;
 }
 .brand {
-  margin-top: -7px;
+  margin-top: -25px;
 }
 .brand span {
   color: aqua;
 }
 .menu {
   display: flex;
-  width: 50%;
+  width: 65%;
   justify-content: space-around;
+  margin: auto;
 }
 .menu  li {
   list-style: none;
@@ -81,6 +83,7 @@ body {
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   gap: 2em;
+  padding-top: 60px;
 }
 
 h1 {
@@ -266,4 +269,34 @@ h1 {
   color: wheat;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #3d6dad;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main img{
+    width:80%;
+  }
+  .navbar{
+
+  }
+  .logo1{
+    width: 20%;
+  }
+  .logo2{
+    width: 45%;
+  }
+  .menu{
+    width: 85%;
+  }
+  .card{
+    width: 30%;
+  }
+  
 }
