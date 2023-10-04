@@ -10,6 +10,9 @@ html {
   box-sizing: border-box;
   
 }
+#all{
+  min-width: 500px;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -97,7 +100,7 @@ body {
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   gap: 2em;
-  padding-top: 60px;
+  padding-top: 160px;
 }
 
 h1 {
@@ -301,8 +304,10 @@ h1 {
     display: inline;
   }
   .main{
-    padding-left: 10px;
+    padding-left: 50px;
     margin: 0 0;
+    height: 50vh;
+    padding-top: 0%;
   }
   .menu {
     flex-direction: row;
@@ -333,4 +338,5 @@ h1 {
   .card__proyect-links i {
     font-size: 40%;
   }
+  
 } 
