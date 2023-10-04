@@ -20,12 +20,14 @@ body {
   height: 100vh;
   background-color: #3d6dad;
   color: #fff;
+  
+  
 }
 .logo1{
-  width: 5em;
+  width: auto;
 }
 .logo2{
-  width: 10em;
+  width: auto;
   
 }
 #logo1{
@@ -41,11 +43,14 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  
   padding: 1.5em;
   height: 80px;
 }
 .brand {
-  margin-top: -25px;
+  margin-top: -5px;
+  display: flex;
+  min-width: 100px;
 }
 .brand span {
   color: aqua;
@@ -55,6 +60,8 @@ body {
   width: 100%;
   justify-content: space-around;
   margin: auto;
+  align-items: center;
+  text-wrap: nowrap;
 }
 .menu  li {
   list-style: none;
@@ -173,8 +180,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  overflow-x: auto;
+  
 }
 
 .card {
@@ -286,19 +292,27 @@ h1 {
   }
 }
 
+
 @media screen and (max-width: 840px) {
   .main img{
-    width:75%;
+    width: 10em;
+  }
+  .navbar{
+    display: inline;
+  }
+  .main{
+    padding-left: 10px;
+    margin: 0 0;
   }
   .menu {
-    flex-direction: row; /* Cambia la dirección de flex a fila */
-    justify-content: space-around; /* Distribuye los elementos horizontalmente */
-    align-items: center; /* Centra verticalmente los elementos */
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center; 
   }
 
   .menu li {
-    flex: 1; /* Los elementos ocuparán un espacio igual */
-    text-align: center; /* Centra el texto dentro de los elementos */
+    flex: 1;
+    text-align: center;
   }
   
   .logo1{
@@ -307,7 +321,9 @@ h1 {
   .logo2{
     width: 45%;
   }
-  
+  .info-content{
+    font-size: xx-small;
+  }
   .card{
     width: 30%;
   }
@@ -317,4 +333,4 @@ h1 {
   .card__proyect-links i {
     font-size: 40%;
   }
-}
+} 
