@@ -1,15 +1,17 @@
 
 <head>
-      
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio SPHY</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-    <link rel="shortcut icon" href="sources/logoBola.png" />
-  </head>
-  <body>
+    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio SPHY</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <link rel="shortcut icon" href="sources/logoBola.png" />
+
+</head>
+<body>
+  <div id="all">  
     <div class="wrapper">
       <header>
         <nav class="navbar">
@@ -22,6 +24,10 @@
             <li><a href="#quienSoy">Quien Soy</a></li>
             <li><a href="#portfolio">Mis proyectos</a></li>
             <li><a href="#footer">Contacto</a></li>
+            <li>
+              <img class="flag" src="sources/SpainFlag.png" alt="logo españa">
+              <img class="flag" src="sources/ukFlag.png" alt="logo uk">
+            </li>
           </ul>
         </nav>
       </header>
@@ -29,78 +35,78 @@
         <div class="info-content">
             
           <h1> <img id="logo1" src="sources/logoBola.png" alt="logo bola"> Hola mundo, soy <span>Santiago</span> Pérez</h1>
-           <p><strong>Programador BACKEND, con conocimientos de...</strong></p>
-           <p><strong> JAVA || SQL || SPRINGBOOT || HTML || CSS || JAVASCRIPT || REACT</strong></p>
-           
+            <p><strong>Programador BACKEND, con conocimientos de...</strong></p>
+            <p><strong> JAVA || SQL || SPRINGBOOT || HTML || CSS || JAVASCRIPT || REACT</strong></p>
+            
         </div>
         <img src="sources/caraLinked.jpg" alt="">
       </main>
     </div>
-      <div class="about" id="quienSoy">
-        <img src="sources/cara.jpg" alt="">
-        <div class="about-info">
-          <h2><img id="logo1" src="sources/logoBola.png" alt="logo bola"> Quien soy</h2>
-          <div class="divider"></div>
+    <div class="about" id="quienSoy">
+      <img src="sources/cara.jpg" alt="">
+      <div class="about-info">
+        <h2><img id="logo1" src="sources/logoBola.png" alt="logo bola"> Quien soy</h2>
+        <div class="divider"></div>
           <p><strong>LLevo muchos años dedicándome a las telecomunicaciones, pero después de hacer el grado superior de desarrollo de aplicaciones multiplataforma y web por fin puedo dedicarme a mi verdadera vocación. La programación.</strong></p>
           <p><strong>He adquirido mucha experiencia gestionando tiempos, equipos y resolución de problemas. Valores que seguro me ayudarán en esta nueva etapa profesional.</strong></p>
-          
         </div>
       </div>
-      <div class="portfolio" id="portfolio">
-        <div class="portfolio-heading">
+    </div>
+    <div class="portfolio" id="portfolio">
+      <div class="portfolio-heading">
           <h2>Mis proyectos</h2>
           <div class="divider"></div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card__img">
+            <video src="sources/juego.mp4" width="300"  height="150" autoplay loop></video>
+          </div>
+          <div class="card__title">
+            <h2>Juegos para Sofía</h2>
+            <p>Juegos usando HTML/ CSS/ JAVASCRIPT</p>
+          </div>            
+          <div class="button-content">
+            <button class="project-details-button card__proyect-links">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/SPHYdebugger/TresEnJavaScript">Repositorio del proyecto</a>
+            </button>
+          </div>
         </div>
-        <div class="container">
-          <div class="card">
-            <div class="card__img">
-              <video src="sources/juego.mp4" width="300"  height="150" autoplay loop></video>
-            </div>
-            <div class="card__title">
-              <h2>Juegos para Sofía</h2>
-              <p>Juegos usando HTML/CSS/JAVASCRIPT</p>
-            </div>            
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/SPHYdebugger/TresEnJavaScript">Repositorio del proyecto</a>
-              </button>
-            </div>
+        <div class="card">
+          <div class="card__img">
+            <video src="sources/damas.mp4" width="300"  height="150" autoplay loop></video>
           </div>
-          <div class="card">
-            <div class="card__img">
-              <video src="sources/damas.mp4" width="300"  height="150" autoplay loop></video>
-            </div>
-            <div class="card__title">
-              <h2>Juego de Damas</h2>
-              <p>Juego de las damas en JAVA, POO</p>
-            </div>            
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/SPHYdebugger/Damas">Repositorio del proyecto</a>
-              </button>
-            </div>
+          <div class="card__title">
+            <h2>Juego de Damas</h2>
+            <p>Juego de las damas en JAVA, Repasando POO</p>
+          </div>            
+          <div class="button-content">
+            <button class="project-details-button card__proyect-links">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/SPHYdebugger/Damas">Repositorio del proyecto</a>
+            </button>
           </div>
-          <div class="card">
-            <div class="card__img">
-              <video src="sources/estetica.mp4" width="300"  height="150" autoplay loop></video>
-            </div>
-            <div class="card__title">
-              <h2>WebApp Estética</h2>
-              <p>WebApp en JSP con servlets, desplegada en Tomcat</p>
-            </div>            
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/SPHYdebugger/TiendaWebApp-LogIn">Repositorio del proyecto</a>
-              </button>
-            </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <video src="sources/estetica.mp4" width="300"  height="150" autoplay loop></video>
+          </div>
+          <div class="card__title">
+            <h2>WebApp Estética</h2>
+            <p>WebApp en JSP con servlets, desplegada en Tomcat</p>
+          </div>            
+          <div class="button-content">
+            <button class="project-details-button card__proyect-links">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/SPHYdebugger/TiendaWebApp-LogIn">Repositorio del proyecto</a>
+            </button>
           </div>
         </div>
       </div>
+    </div>
     
-      <div class="contact-section">
+    <div class="contact-section">
         
     
       <footer class="footer" id="footer"> 
@@ -119,4 +125,6 @@
             </div>
         </div>
       </footer>
-    </body>
+    </div>
+  </div>
+</body>
