@@ -178,7 +178,7 @@ h1 {
 
 .portfolio .container {
   width: 85vw;
-  height: 85vh;
+  height: 80vh;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -310,11 +310,14 @@ h1 {
     padding-top: 0%;
   }
   .menu {
-    flex-direction: row;
-    justify-content: space-around; 
+    
+    display: block;
+    justify-content: center;
     align-items: center; 
   }
-
+.brand{
+  justify-content: center;
+}
   .menu li {
     flex: 1;
     text-align: center;
@@ -331,6 +334,10 @@ h1 {
   }
   .card{
     width: 30%;
+    height: auto;
+  }
+  .card__title{
+    font-size: small;
   }
   .project-details-button{
     font-size: 30%;
