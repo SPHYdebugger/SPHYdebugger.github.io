@@ -7,7 +7,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
   
 }
 #all{
@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper {
-  width: 100vw;
+ 
   height: 100vh;
   background-color: #3d6dad;
   color: #fff;
@@ -151,11 +151,14 @@ h1 {
   margin-bottom: 2em;
 }
 
-.portfolio {
-  width: 100vw;
+#portfolio {
+  min-width: 500px; /* Ocupar todo el ancho de la pantalla */
+  height: auto; /* Ocupar toda la altura de la pantalla */
   background-color: #191c32;
   color: #fff;
-  
+  padding: 0; /* Eliminar cualquier relleno */
+  margin: 0; /* Eliminar cualquier margen */
+  overflow: hidden; /* Asegurar que no haya desbordamiento */
 }
 
 .portfolio-heading {
@@ -178,7 +181,7 @@ h1 {
 
 .portfolio .container {
   width: 85vw;
-  height: 80vh;
+  height: auto;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -187,6 +190,7 @@ h1 {
 }
 
 .card {
+  display: flex;
   width: 40%;
   height: auto;
   background-color: #2b3058;
