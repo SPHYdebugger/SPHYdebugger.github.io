@@ -12,6 +12,7 @@ html {
 }
 #all{
   min-width: 450px;
+  width: 100vw;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 }
 
 .wrapper {
-  width: 100vw;
+  
   height: 100vh;
   background-color: #3d6dad;
   color: #fff;
@@ -47,12 +48,13 @@ body {
   display: flex;
   justify-content: space-between;
   height: 60px;
-  width: 100vw;
+  width: 100%;
 }
 .brand {
   margin-top: -5px;
   display: flex;
   min-width: 100px;
+  padding: 5px;
 }
 .brand span {
   color: aqua;
@@ -93,7 +95,7 @@ body {
 
 .main {
   margin: 0 auto;
-  width: 100vw;
+  
   height: auto;
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -103,8 +105,9 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3vw;
 }
+
 
 .info-content span {
   color: aqua;
@@ -115,11 +118,28 @@ h1 {
   width:20em;
   
 }
+.main {
+  margin: 0 auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center; /* Centrar horizontalmente los elementos */
+  gap: 2em;
+  padding-top: 160px;
+}
 
+/* Centrar verticalmente el contenido en .main */
+.main h1,
+.main img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 .about {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  /*width: 100vw;*/
+  
   align-items: center;
 }
 
@@ -129,7 +149,7 @@ h1 {
 }
 
 .about-info {
-  grid-column: 5/10;
+  grid-column: 5/11;
   padding: 3em;
 }
 
@@ -151,7 +171,7 @@ h1 {
 }
 
 #portfolio {
-  width: 100vw;
+  
   min-width: 500px; /* Ocupar todo el ancho de la pantalla */
   height: auto; /* Ocupar toda la altura de la pantalla */
   background-color: #191c32;
@@ -162,11 +182,11 @@ h1 {
 }
 
 .portfolio-heading {
-  /*width: 100vw;*/
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100vw;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -267,22 +287,22 @@ h1 {
   display: grid;
   grid-template-columns: 40% 60%;
   align-items: center;
-  gap: 20px;
+  
   justify-content: center;
-  width: 100vw;
+  
   
   
   background-color: #3d6dad;   
 }
 
 .footer-content h2 {
-  font-size: 3em;
+  font-size: 3vw;
   text-align: center;
   color: white;
 }
 
 .footer-content h5 {
-  font-size: 1.5em;
+  font-size: 2vw;
   text-align: center;
   color: white;
 }
@@ -293,7 +313,7 @@ h1 {
   margin-top: 1em;
 }
 .sotial-networks i {
-  font-size: 1.5em;
+  font-size: 3vw;
   color: wheat;
   margin-left: 10px;
   margin-right: 10px;
@@ -314,7 +334,8 @@ h1 {
     width: 10em;
   }
   .navbar{
-    display: inline;
+    
+    background-color: #3d6dad;
   }
   .main{
     padding-left: 50px;
@@ -324,7 +345,7 @@ h1 {
   }
   .menu {
     
-    display: block;
+    
     justify-content: center;
     align-items: center; 
   }
@@ -346,11 +367,12 @@ h1 {
     font-size: xx-small;
   }
   .card{
-    width: 30%;
-    height: auto;
+    
+    display: block;
   }
   .card__title{
     font-size: small;
+    margin: 0 auto;
   }
   .project-details-button{
     font-size: 30%;
