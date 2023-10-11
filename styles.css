@@ -11,7 +11,7 @@ html {
   
 }
 #all{
- min-width: 450px;
+ min-width: 400px;
  
   
 }
@@ -22,8 +22,8 @@ body {
 }
 
 .wrapper {
-  min-height: 600px;
   
+  height: 600px;
   background-color: #3d6dad;
   color: #fff;
   
