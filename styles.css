@@ -103,13 +103,15 @@ body {
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   gap: 2em;
-  padding-top: 160px;
+  padding-top: 120px;
 }
 
 h1 {
   font-size: 3vw;
 }
-
+.info-content{
+  padding: 20px;
+}
 
 .info-content span {
   color: aqua;
@@ -117,7 +119,7 @@ h1 {
 
 .main img {
   border-radius: 50%;
-  width:20em;
+  width:65%;
   
 }
 .main {
@@ -128,7 +130,7 @@ h1 {
   align-items: center;
   justify-items: center; /* Centrar horizontalmente los elementos */
   gap: 2em;
-  padding-top: 160px;
+  
 }
 
 /* Centrar verticalmente el contenido en .main */
