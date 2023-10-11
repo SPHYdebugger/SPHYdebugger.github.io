@@ -384,6 +384,15 @@ h1 {
   .info-content{
     font-size: xx-small;
   }
+  .about p {
+    font-size: 3vw;
+  }
+  .about-info{
+    padding: 1em;
+  }
+  .about-info .divider{
+    width: 100px;
+  }
   .card{
     
     display: block;
