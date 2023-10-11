@@ -11,8 +11,8 @@ html {
   
 }
 #all{
- min-width: 400px;
- width: 100vw;
+ 
+ 
   
 }
 
@@ -83,7 +83,7 @@ body {
   color: white;
   font: 1em sans-serif;
   text-decoration: none;
-  padding: 5px;
+  
 }
 
 .menu li:hover a{
