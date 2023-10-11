@@ -11,8 +11,8 @@ html {
   
 }
 #all{
- min-width: 500px;
-  
+ min-width: 400px;
+ overflow: hidden;
   
 }
 
