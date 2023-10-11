@@ -11,12 +11,14 @@ html {
   
 }
 #all{
-  min-width: 450px;
-  width: 100vw;
+ min-width: 500px;
+  
+  
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+
 }
 
 .wrapper {
@@ -53,7 +55,7 @@ body {
 .brand {
   margin-top: -5px;
   display: flex;
-  min-width: 100px;
+  
   padding: 5px;
 }
 .brand span {
@@ -151,6 +153,7 @@ h1 {
 .about-info {
   grid-column: 5/11;
   padding: 3em;
+  
 }
 
 .about-info h2 {
@@ -172,7 +175,7 @@ h1 {
 
 #portfolio {
   
-  min-width: 500px; /* Ocupar todo el ancho de la pantalla */
+ 
   height: auto; /* Ocupar toda la altura de la pantalla */
   background-color: #191c32;
   color: #fff;
@@ -314,12 +317,12 @@ h1 {
 }
 .sotial-networks i {
   font-size: 3vw;
-  color: wheat;
+  color: white;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 720px) {
   .navbar{
     position: fixed;
     
@@ -329,19 +332,27 @@ h1 {
 }
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 720px) {
   .main img{
     width: 10em;
   }
   .navbar{
-    
+    display: block;
     background-color: #3d6dad;
+    height: 100px;
+  }
+  .wrapper{
+    height: auto;
   }
   .main{
-    padding-left: 50px;
-    margin: 0 0;
-    height: 50vh;
-    padding-top: 0%;
+    display: block;
+    padding-top: 50;
+    margin: 30 0;
+    height: 70vh;
+    
+  }
+  .main img{
+    margin-top: 50px;
   }
   .menu {
     
@@ -349,8 +360,12 @@ h1 {
     justify-content: center;
     align-items: center; 
   }
+  .menu a{
+    color: #191c32;
+  }
 .brand{
   justify-content: center;
+  height: 90px;
 }
   .menu li {
     flex: 1;
