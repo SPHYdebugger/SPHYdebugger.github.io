@@ -82,7 +82,7 @@ body {
   color: white;
   font: 1em sans-serif;
   text-decoration: none;
-  padding: 10px 20px; 
+   
 }
 
 .menu li:hover a{
@@ -394,6 +394,7 @@ h1 {
   }
   .card__proyect-links i {
     font-size: 40%;
+    padding: 3px;
   }
   
 } 
