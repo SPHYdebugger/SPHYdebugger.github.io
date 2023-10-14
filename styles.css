@@ -349,6 +349,7 @@ h1 {
     margin: 30 0;
     height: 70vh;
     padding-bottom: 50px;
+    min-height: 375px;
   }
   .main img{
     margin-top: 50px;
