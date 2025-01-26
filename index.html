@@ -1,211 +1,282 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio SPHY</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>SANTIAGO  - Backend Developer</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-  <link rel="shortcut icon" href="sources/logoBola.png" />
-
+  <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
-  <div id="all">  
-    <header>
-      <nav class="navbar">
-        <div class="brand">
-          <img class="logo1" src="sources/logoBola.png" alt="logo bola">
-          <img class="logo2" src="sources/logoLetras.png" alt="logo letras">
-        </div>
-        <ul class="menu">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="#quienSoy">Quién Soy</a></li>
-          <li><a href="#portfolio">Proyectos</a></li>
-          <li><a href="#footer">Contacto</a></li>
-          <li>
-            <a href="index.html"><img class="flag" src="sources/SpainFlag.png" alt="logo españa"></a>
-            <a href="englishIndex.html"><img class="flag" src="sources/ukFlag.png" alt="logo uk"></a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="wrapper">      
-      <main class="main">
-        <div class="info-content">
-            
-          <h1> <img id="logo1" src="sources/logoBola.png" alt="logo bola"> HOLA MUNDO,</h1>
-           <h1>  soy <span>Santiago</span> Pérez</h1>
-            <p><strong>Programador BACKEND, con conocimientos de...</strong></p>
-            <p><strong> JAVA || SQL || SPRINGBOOT || HTML || CSS || JAVASCRIPT || PYTHON || ABAP</strong></p>
-            
-        </div>
-        <img src="sources/caraLinked.jpg" alt="">
-      </main>
+<nav class="navbar">
+  <div class="nav-content">
+    <div class="flags">
+      <a href="englishIndex2.html">
+        <img src="sources/SpainFlag.png" alt="Spanish flag">
+      </a>
+      <a href="englishIndex2.html">
+        <img src="sources/ukFlag.png" alt="British flag">
+      </a>
     </div>
-    <div class="about" id="quienSoy">
-      <img src="sources/cara.jpg" alt="">
-      <div class="about-info">
-        <h2><img id="logo1" src="sources/logoBola.png" alt="logo bola"> Quién soy</h2>
-        <div class="divider"></div>
-          <p><strong>He trabajado en proyectos Java con Spring Boot, desarrollando microservicios escalables y robustos, y gestionando APIs RESTful para distintos servicios. Además, poseo experiencia en gestión de bases de datos relacionales (MySQL, PostgreSQL y Oracle) y no relacionales (MongoDB). Tengo conocimientos de PYTHON para la creación de tareas con Airflow. He utilizado para FrontEnd los lenguajes HTML, CSS, JavaScript y TypeScript, empleando el framework ANGULAR.</strong></p>
-          <p><strong>Para CD/CI he usado tanto GitHub como GitLab, Jenkins, Docker y Kubernetes, lo que me ha permitido automatizar despliegues y mejorar la eficiencia operativa de los equipos, unidos a en la implementación de sistemas distribuidos y la integración de tecnologías en la nube, como AWS (EC2, RDS, S3). </strong></p>
-          <p><strong>Además de mis habilidades técnicas, poseo habilidades comunicativas y organizativas para la planificación de proyectos y la gestión de tiempos y equipos. Me considero una persona responsable, positiva y buen comunicador. Capaz de llevar a cabo cualquier reto y aprendiendo en cada paso. Mi enfoque es siempre la entrega de productos de alta calidad, manteniendo los plazos y ofreciendo soluciones eficaces a los problemas que surgen durante el desarrollo.</strong></p>
-        </div>
-      </div>
-    
-    <div id="portfolio" id="portfolio">
-      <div class="portfolio-heading">
-          <h2>Mis proyectos</h2>
-          <div class="divider"></div>
-      </div>
-      <div class="container">
-        <div class="card">
-          <div class="card__img">
-            
-            <video src="sources/juego.mp4" width="300"  height="150" autoplay mute controls></video>
-          
-          </div>
-          <div class="card__title">
-            <h2>Juegos para Sofía</h2>
-            <p>Juegos usando HTML/ CSS/ JAVASCRIPT</p>
-                      
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/SPHYdebugger/TresEnJavaScript">Repositorio del proyecto</a>
-              </button>
-            </div>
-          </div>  
-        </div>
-        <div class="card">
-          <div class="card__img">
-            <a href="" target="_blank">
-            <video src="sources/PFC3.mp4" width="300"  height="150" autoplay mute controls></video>
-          </a>
-          </div>
-          <div class="card__title">
-            <h2>Aplicación Android PFC</h2>
-            <p>Aplicación control de repostajes consumiendo su propia API</p>
-                      
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/SPHYdebugger/PFC-App">Repositorio del proyecto</a>
-              </button>
-            </div>
-          </div>  
-        </div>
-        <div class="card">
-          <div class="card__img">
-            <a href="" target="_blank">
-            <video src="sources/LastFM-Api.mp4" width="300"  height="150" autoplay mute controls></video>
-          </a>
-          </div>
-          <div class="card__title">
-            <h2>LastFM-Api</h2>
-            <p>Programa de escritorio para consumir API externa</p>
-                      
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/SPHYdebugger/LastFM-API">Repositorio del proyecto</a>
-              </button>
-            </div>
-          </div>  
-        </div>
-        <div class="card">
-          <div class="card__img">
-            <a href="" target="_blank">
-            <video src="sources/ApiMock.mp4" width="300"  height="150" autoplay mute controls></video>
-          </a>
-          </div>
-          <div class="card__title">
-            <h2>ApiMock Shop</h2>
-            <p>API de e-commerce simulada con WireMock</p>
-                      
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/SPHYdebugger/SteticMock">Repositorio del proyecto</a>
-              </button>
-            </div>
-          </div>  
-        </div>
-        <div class="card">
-          <div class="card__img">
-            <a href="" target="_blank">
-            <video src="sources/SphyGraf.mp4" width="300"  height="150" autoplay mute controls></video>
-          </a>
-          </div>
-          <div class="card__title">
-            <h2>SphyGraf image editor</h2>
-            <p>Programa de escritorio para editar imágenes de forma concurrente</p>
-                      
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/SPHYdebugger/SPHYgraf">Repositorio del proyecto</a>
-              </button>
-            </div>
-          </div>  
-        </div>
-        <div class="card">
-          <div class="card__img">
-            <video src="sources/damas.mp4" width="300"  height="150" autoplay controls></video>
-          </div>
-          <div class="card__title">
-            <h2>Juego de Damas</h2>
-            <p>Juego de las damas en JAVA, Repasando POO</p>
-                     
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/SPHYdebugger/Damas">Repositorio del proyecto</a>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card__img">
-            <a href="https://tiendasphy.000webhostapp.com/index.php" target="_blank">
-            <video src="sources/estetica.mp4" width="300"  height="150" autoplay controls></video>
-          </a>
-          </div>
-          <div class="card__title">
-            <h2>WebApp Estética</h2>
-            <p>WebApp en PHP usando Json</p>
-                        
-            <div class="button-content">
-              <button class="project-details-button card__proyect-links">
-                <i class="fab fa-github"></i>
-                <a href="">Repositorio del proyecto</a>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="contact-section">    
-    
-      <footer class="footer" id="footer"> 
-        <div>
-            <img class="logo3" src="sources/SPHY2.png" alt="">
-        </div>
-        <div>
-            <div class="footer-content">
-                <h2>Santiago Pérez</h2>
-                <h5>Backend Developer</h5>
-            </div>
-            <div class="sotial-networks">
-              <a href="mailto:santiagoperez.developer@gmail.com" title="santiagoperez.developer@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
-              <a href="https://www.linkedin.com/in/santiagoperezhernandez/" title="linkedin santiagoperezhernandez" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="https://github.com/SPHYdebugger" title="github SPHYdebugger" target="_blank"><i class="fab fa-github"></i></a>
-          </div>
-          
-        </div>
-      </footer>
+
+
+    <a href="index.html" class="logo">SANTIAGO Pérez Hernández</a>
+    <div class="nav-links">
+      <a href="#about">Inicio</a>
+      <a href="#me">Yo</a>
+      <a href="#skills">Conocimientos</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#contact">Contacto</a>
+      <a href="#contact">Descargas</a>
     </div>
   </div>
+</nav>
+
+<section class="hero" id="about">
+  <div class="hero-content">
+    <img src="sources/caraLinked.jpg" alt="">
+    <h1>Backend Developer</h1>
+    <p>JAVA || SQL || SPRINGBOOT || HTML || CSS || PHP || JAVASCRIPT || TYPESCRIPT || PYTHON || ABAP</p>
+    <br>
+    <p>Haciendo magia, para que las cosas que parecen sencillas FUNCIONEN.</p>
+    <p>Apasionado por construir soluciones eficientes y escalables para problemas complejos.</p>
+  </div>
+</section>
+
+<section class="me" id="me">
+    <img src="sources/cara.jpg" alt="">
+    <div class="about-info">
+      <h2> Quién soy</h2>
+      <div class="divider"></div>
+      <p>He trabajado en proyectos Java con Spring Boot, desarrollando microservicios escalables y robustos, y gestionando APIs RESTful para distintos servicios. Además, poseo experiencia en gestión de bases de datos relacionales (MySQL, PostgreSQL y Oracle) y no relacionales (MongoDB). Tengo conocimientos de PYTHON para la creación de tareas con Airflow. He utilizado para FrontEnd los lenguajes HTML, CSS, JavaScript y TypeScript, empleando el framework ANGULAR.</p>
+      <p>Para CD/CI he usado tanto GitHub como GitLab, Jenkins, Docker y Kubernetes, lo que me ha permitido automatizar despliegues y mejorar la eficiencia operativa de los equipos, unidos a en la implementación de sistemas distribuidos y la integración de tecnologías en la nube, como AWS (EC2, RDS, S3). </p>
+      <p>He realizado Testing con JUnit, Mockito y Selenium.</p>
+      <p>Además de mis habilidades técnicas, poseo habilidades comunicativas y organizativas para la planificación de proyectos y la gestión de tiempos y equipos. Me considero una persona responsable, positiva y buen comunicador. Capaz de llevar a cabo cualquier reto y aprendiendo en cada paso. Mi enfoque es siempre la entrega de productos de alta calidad, manteniendo los plazos y ofreciendo soluciones eficaces a los problemas que surgen durante el desarrollo.</p>
+    </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Conocimientos</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Backend Dev</h3>
+        <p>Java</p>
+        <p>SpringBoot</p>
+        <p>Airflow</p>
+        <p>Python</p>
+        <p>ABAP</p>
+
+      </div>
+      <div class="skill-card">
+        <h3>Front Dev</h3>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>TypeScript</p>
+        <p>PHP</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Databases</h3>
+        <p>MySQL</p>
+        <p>Oracle</p>
+        <p>MariaDB</p>
+        <p>PostgreSQL</p>
+        <p>Hibernate</p>
+        <p>MongoDB</p>
+        <p>SQLite</p>
+
+      </div>
+      <div class="skill-card">
+        <h3>DevOps</h3>
+        <p>Docker</p>
+        <p>Jenkins</p>
+        <p>Kubernetes</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Cloud Services</h3>
+        <p>AWS EC2</p>
+        <p>AWS RDS</p>
+        <p>AWS S3</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2 class="section-title">Proyectos destacados</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-content">
+          <video src="sources/PFC3.mp4" width="300"  height="150" muted autoplay playsinline loop></video>
+          <h2>App Android PFC</h2>
+          <div class="project-descrip">
+            <p>Aplicación control de repostajes consumiendo su propia API</p>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">JAVA</span>
+            <span class="tech-tag">AWS</span>
+            <span class="tech-tag">API</span>
+          </div>
+          <div class="button-content">
+            <a
+              class="project-details-button card__proyect-links"
+              href="https://github.com/SPHYdebugger/PFC-App"
+              target="_blank"
+              style="color: black; text-decoration: none;">
+              <i class="fab fa-github"></i> Repositorio del proyecto
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-content">
+          <video src="sources/juego.mp4" width="300"  height="150" muted autoplay playsinline loop></video>
+          <h2>Juegos para Sofía</h2>
+          <div class="project-descrip">
+            <p>Juegos para iniciarse en FRONT</p>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JAVASCRIPT</span>
+          </div>
+          <div class="button-content">
+            <a
+              class="project-details-button card__proyect-links"
+              href="https://github.com/SPHYdebugger/TresEnJavaScript"
+              target="_blank"
+              style="color: black; text-decoration: none;">
+              <i class="fab fa-github"></i> Repositorio del proyecto
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-content">
+          <video src="sources/LastFM-Api.mp4" width="300"  height="150" muted autoplay playsinline loop></video>
+          <h2>LastFM-Api</h2>
+          <div class="project-descrip">
+            <p>Programa de escritorio para consumir API externa</p>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">JAVA</span>
+            <span class="tech-tag">THREADS</span>
+            <span class="tech-tag">API</span>
+          </div>
+          <div class="button-content">
+            <a
+              class="project-details-button card__proyect-links"
+              href="https://github.com/SPHYdebugger/LastFM-API"
+              target="_blank"
+              style="color: black; text-decoration: none;">
+              <i class="fab fa-github"></i> Repositorio del proyecto
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-content">
+          <video src="sources/ApiMock.mp4" width="300"  height="150" muted autoplay playsinline loop></video>
+          <h2>ApiMock Shop</h2>
+          <div class="project-descrip">
+            <p>API de e-commerce simulada con WireMock</p>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">JAVA</span>
+            <span class="tech-tag">WIREMOCK</span>
+            <span class="tech-tag">APIMAN</span>
+          </div>
+          <div class="button-content">
+            <a
+              class="project-details-button card__proyect-links"
+              href="https://github.com/SPHYdebugger/SteticMock"
+              target="_blank"
+              style="color: black; text-decoration: none;">
+              <i class="fab fa-github"></i> Repositorio del proyecto
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-content">
+          <video src="sources/SphyGraf.mp4" width="300"  height="150" muted autoplay playsinline loop></video>
+          <h2>SphyGraf image editor</h2>
+          <div class="project-descrip">
+            <p>Programa de escritorio para editar imágenes de forma concurrente</p>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">JAVA</span>
+            <span class="tech-tag">THREADS</span>
+            <span class="tech-tag">JAVAFX</span>
+          </div>
+          <div class="button-content">
+            <a
+              class="project-details-button card__proyect-links"
+              href="https://github.com/SPHYdebugger/SPHYgraf"
+              target="_blank"
+              style="color: black; text-decoration: none;">
+              <i class="fab fa-github"></i> Repositorio del proyecto
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-content">
+          <video src="sources/estetica.mp4" width="300"  height="150" muted autoplay playsinline loop></video>
+          <h2>Web Stetic100</h2>
+          <div class="project-descrip">
+            <p>Web creada con PHP</p>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">PHP</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+          <div class="button-content">
+            <a
+              class="project-details-button card__proyect-links"
+              href="https://github.com/SPHYdebugger/WebPHP-SQL"
+              target="_blank"
+              style="color: black; text-decoration: none;">
+              <i class="fab fa-github"></i> Repositorio del proyecto
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer" id="contact">
+  <p>Conéctate conmigo</p>
+  <div class="sotial-networks">
+    <a href="mailto:santiagoperez.developer@gmail.com" title="santiagoperez.developer@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/santiagoperezhernandez/" title="linkedin santiagoperezhernandez" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/SPHYdebugger" title="github SPHYdebugger" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+  <br>
+  <p>Descargas</p>
+  <div class="files">
+    <a href="sources/CVSantiagoPerez.pdf" download="CVSantiagoPerez" class="download-btn">
+      Descargar CV
+    </a>
+    <a href="sources/CartaPresentacionSANTIAGOPEREZ.pdf" download="cartaPresentacionSANTIAGOPEREZ" class="download-btn">
+      Descargar CARTA DE PRESENTACIÓN
+    </a>
+    <a  class="download-btn">
+      Descargar CERTIFICADOS
+    </a>
+  </div>
+
+  <br>
+  <p>&copy; 2025 SantiagoPerez</p>
+</footer>
+
+<script src="script.js" defer></script>
+
+
 </body>
+</html>
