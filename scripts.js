@@ -21,13 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    const videos = document.querySelectorAll("video");
-    videos.forEach(video => {
-      video.play().catch(error => {
-        console.error("Error al reproducir el video:", error);
-      });
-    });
-
+    
     // Navbar scroll effect
     let lastScroll = 0;
     window.addEventListener('scroll', () => {
