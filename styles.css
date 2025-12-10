@@ -108,6 +108,7 @@ display: inline-flex;
 
 .hero img {
     width: 30%;
+    display: none;
 }
 
 .me {
